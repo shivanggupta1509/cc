@@ -41,7 +41,7 @@ def timer(number, repeat):
     return wrapper
   
 list = input(f"{ColorsClass.CBLUE2} Enter your cc file  =  {ColorsClass.CRED2}")
-pi_ = "pi_3Lq9goB7zDC0drK81xEcLU9j_secret_jZnSw44LH8pXY84ABqli9RIsK"
+pi_ = "pi_3LqEFhB7zDC0drK81cb11AHK_secret_oElF141V8ASzWY6UBGR1BIffO"
 pi = pi_.split('_secret')[0]
 URL = f"https://api.stripe.com/v1/payment_intents/{pi}/confirm"
 
